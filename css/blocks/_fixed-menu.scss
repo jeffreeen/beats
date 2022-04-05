@@ -9,6 +9,12 @@
   } 
 }
 
+.fixed-menu--light {
+  .fixed-menu__link::before {
+    background: white;
+  }
+}
+
 
 .fixed-menu__item {
   margin-bottom: 0.313rem;
@@ -40,8 +46,10 @@
     border-radius: 50%;
     position: absolute;
     background: $black;
+    opacity: 0.6;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 }
+

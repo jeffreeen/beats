@@ -65,6 +65,9 @@
       }
     }
   }
+  @include phones() {
+    padding-top: 0;
+  }
 }
 
 .welcome__title .title {
